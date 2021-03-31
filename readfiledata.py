@@ -33,10 +33,3 @@ def read(filename, sep):
 
     except Exception as e:
         return e
-
-
-
-# Execution demo
-fdata = read('sample.txt','|')
-for row in fdata:
-    print(row)
